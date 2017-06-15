@@ -1,0 +1,30 @@
+{
+  "name": "mqf",
+  "version": "1.0.0",
+  "description": "Filter javascript plain objects. Useful for Mongo queries.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airamrguez/mqf"
+  },
+  "bugs": {
+    "url": "https://github.com/airamrguez/mqf/issues"
+  },
+  "keywords": [
+    "filter",
+    "mongo",
+    "query",
+    "select"
+  ],
+  "author": "Airam Rguez",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
