@@ -3,6 +3,8 @@
 > Like classNames for React but for MongoDB queries or whatever you want.
 
 [![npm version](https://badge.fury.io/js/mqf.svg)](https://badge.fury.io/js/mqf)
+[![Build Status](https://travis-ci.org/airamrguez/mqf.svg)](https://travis-ci.org/airamrguez/mqf)
+[![Coverage Status](https://coveralls.io/repos/github/airamrguez/mqf/badge.svg?branch=master)](https://coveralls.io/github/airamrguez/mqf?branch=master)
 
 ## Usage
 

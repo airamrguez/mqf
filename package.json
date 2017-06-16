@@ -4,7 +4,7 @@
   "description": "Filter javascript plain objects. Useful for Mongo queries.",
   "main": "index.js",
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
     "test": "node_modules/.bin/jest",
