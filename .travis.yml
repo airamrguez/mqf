@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - "8"
+  - "7"
+  - "6"
+  - "5"
+  - "4"
+
+cache: yarn
+
+script:
+  - npm run cover

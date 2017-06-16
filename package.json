@@ -4,10 +4,11 @@
   "description": "Filter javascript plain objects. Useful for Mongo queries.",
   "main": "index.js",
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "jest"
+    "test": "node_modules/.bin/jest",
+    "cover": "node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "author": "Airam Rguez",
   "license": "MIT",
   "devDependencies": {
+    "coveralls": "^2.13.1",
     "jest": "^20.0.4"
   }
 }
