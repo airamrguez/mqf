@@ -1,7 +1,6 @@
 # mqf
 
-Like classNames for React but for MongoDB queries or whatever you want.
-
+> Like classNames for React but for MongoDB queries or whatever you want.
 
 [![npm version](https://badge.fury.io/js/mqf.svg)](https://badge.fury.io/js/mqf)
 
@@ -22,3 +21,23 @@ mqf(
 //   b: 5
 // }
 ```
+
+## MongoDB use case
+
+Only admins or post author's can update a post.
+
+```js
+db
+  .collection('posts')
+  .filterAndUpdate(
+    mqf(
+      { _id: ObjectId(postId) },
+      [{ authorId: ObjectId(currentUser._id) }, !isAdmin(currentUser)]
+    )
+  ).
+  then(result => ...);
+
+```
+## License
+
+MIT © [Airam Rguez](https://github.com/airamrguez)
