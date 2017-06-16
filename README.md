@@ -11,9 +11,9 @@ Like classNames for React but for MongoDB queries or whatever you want.
 
 ```js
 mqf(
-  { a: 3 }],
+  { a: 3 },
   [{ b: 5 }, !isNaN(3)],
-  [{ c: 3 }, false
+  [{ c: 3 }, false]
 );
 
 // Output
